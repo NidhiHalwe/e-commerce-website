@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cartcove | Ecommerce Website Design </title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="product page" href="product.html">
+    <link rel="about page" href="about.html">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo-no-background.png" width="124px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a> </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1> Shop The World <br> At Your Fingertips !</h1>
+                <p> Discover curated collections of fashion, accessories, home decor, and more, <br> all in one place.
+                </p>
+                <a href="" class="bton">Explore Now &#8594; </a>
+            </div>
+            <div class="col-2">
+                <img src="front pg.png" width="550px">
+            </div>
+        </div>
+    </div>
+    <!------- featured categories ------->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------feature product -------->
+    <div class="small-container">
+        <h2 class="title"> Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="product-1.jpg">
+                <h4> Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $50.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-2.jpg">
+                <h4> Black Casual Shoes </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $80.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-3.jpg">
+                <h4> Regular Fit Trackpants </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $30.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-4.jpg">
+                <h4> Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $50.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="product-5.jpg">
+                <h4> Regular Shoes </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $90.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+
+            <div class="col-4">
+                <img src="product-6.jpg">
+                <h4> Black Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $50.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-7.jpg">
+                <h4> Pair Of Solidsox</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $70.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-8.jpg">
+                <h4> FOSSIL</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $80.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-9.jpg">
+                <h4> TIMEWEAR </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $80.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-10.jpg">
+                <h4> Black Stylish Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $70.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-11.jpg">
+                <h4> Grey Soft Shoes </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $90.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+            <div class="col-4">
+                <img src="product-12.jpg">
+                <h4> Black Printed Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> $50.00 </p>
+                <a href="" class="btn">Add to cart </a>
+            </div>
+
+        </div>
+    </div>
+    <!--------------- offer ---------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p> Exclusively Available on Cartcove</p>
+                    <h1> Smart Band 4</h1>
+                    <small> Th MI Band 4 feature a 39.95 larger (than Mi Band 3) AMOLED color full-touch dasplay with
+                        adjustable brightness,everything is clear as can be. </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------testimonial-------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, earum.
+                        Quia, exercitationem dignissimos quod maiores beatae accusamus. Molestias
+                        eum dicta quo eveniet quia?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="user-1.png">
+                    <h3> Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, earum.
+                        Quia, exercitationem dignissimos quod maiores beatae accusamus. Molestias
+                        eum dicta quo eveniet quia?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="user-2.png">
+                    <h3> Mike Smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, earum.
+                        Quia, exercitationem dignissimos quod maiores beatae accusamus. Molestias
+                        eum dicta quo eveniet quia?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="user-3.png">
+                    <h3> Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------brands--------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------footer ----->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App </h3>
+                    <p> Download App For Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo-no-background.png">
+                    <p> Our purpose is to sustainably make them pleasure and benefits of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3> Usefull links </h3>
+                    <ul>
+                        <li> Coupons </li>
+                        <li> Blog Post </li>
+                        <li> Return Policy </li>
+                        <li> Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3> Follow Us </h3>
+                    <ul>
+                        <li> Facebook</li>
+                        <li> Twitter </li>
+                        <li> Instagram </li>
+                        <li> Youtube </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2024 - Ease Store</p>
+        </div>
+    </div>
+
+    <!-----------------js for toggle menu --------->
+    <script src="script.js"></script>
+</body>
+
+</html>
